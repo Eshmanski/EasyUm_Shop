@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/jquery-ui.min.css">
+    <link rel="stylesheet" href="../css/style-head.css">
+    <link rel="stylesheet" href="../css/style-category.css">
+    <link rel="stylesheet" href="../css/syle-footer.css">
+    <title>Category</title>
+</head>
+<body>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="../img/head-img/Logo.png" alt=""></a>
+    
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto nav-left">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">fashion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">electronik</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Lebensmittel</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Maschinenbau</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="far fa-user"></i>   Mein Konto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i> Warenkorb</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="search-block">
+            <div class="container ">
+                <div class="line-top d-flex search-container">
+                    <p class="search-sign">Kostenloser Versand – Kostenlose Rückgabe</p>
+                    <form class="search-form" action="">
+                            <input type="text" class="search-form-text" placeholder="Suche">
+                            <input type="submit" class="search-form-button">
+                            <!-- <button><i class="fas fa-search"></i></button> -->
+                    </form>
+                </div>
+            </div>
+        </div>
+        <section class="breadcrumb-sect">
+            <div class="breadcrumb-head">
+                <div class="container">
+                    <div class="d-flex justify-content-center">
+                        <img class="breadcrumb-head-img" src="../img/category-img/header.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#" class="breadcrumb-color">Home</a></li>
+                    <li class="breadcrumb-item breadcrumb-color" aria-current="page">Lebensmittel</li>
+                    </ol>
+                </nav>
+            </div>
+        </section>
+
+        <h2 class="category-sect-header">Lebensmittel</h2>
+        <section class="category-sect">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="category-col">
+                            <div class="row">
+                                <div class="col-sm-6 col-md-6 col-lg-12"> 
+                                    <div class="category-sect-block">
+                                        <p class="category-sect-block-header">Lebensmittel</p>
+                                        <p class="category-sect-text types-active"><a href="">Alle</a></p>
+                                        <p class="category-sect-text"><a href="">Kaffee</a></p>
+                                        <p class="category-sect-text"><a href="">Kakao</a></p>
+                                        <p class="category-sect-text"><a href="">Schockolade</a></p>
+                                        <p class="category-sect-text"><a href="">Tee</a></p>
+                                    </div>
+                                    <div class="category-sect-block">
+                                        <div class="catgory-sect-block">
+                                            <button class="category-sect-btn"><div class="category-sect-btn-text">Alle Filter zurücksetzen</div></button>
+                                        </div>
+                                    </div>
+                                    <div class="category-sect-block">
+                                        <p>
+                                            <label for="amount" class="slider-range-heading">preis</label>
+                                            <div class="slider-range-amount">
+                                            <input type="text" id="amount1" readonly class="slider-range-input">
+                                            <input type="text" id="amount2" readonly class="slider-range-input right-input">
+                                            </div>
+                                        </p>
+                                        <div class="slider-range" id="slider-range"></div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-12">
+                                    <div class="category-sect-block">
+                                        <p class="category-sect-block-header">Bio</p>
+                                        <p class="category-sect-text"><a href="">Voll Bio</a></p>
+                                        <div class="category-sect-bio-block">
+                                            <p class="category-sect-bio-block-text">Bio - Ohne Zusätze </p>
+                                            <button class="cross-btn"><i class="fas fa-times"></i></button>
+                                        </div>
+                                    </div>
+                                    <div class="category-sect-block">
+                                        <p class="category-sect-block-header">Gewicht</p>
+                                        <div class="category-sect-weight">
+                                            <p class="category-sect-text"><a href="">100g</a></p>
+                                            <p class="category-sect-text"><a href="">150g</a></p>
+                                            <p class="category-sect-text"><a href="">200g</a></p>
+                                            <p class="category-sect-text width-active"><a href="">250g</a></p>
+                                            <p class="category-sect-text"><a href="">500g</a></p>
+                                            <p class="category-sect-text"><a href="">750g</a></p>
+                                            <p class="category-sect-text"><a href="">1kg</a></p>
+                                            <p class="category-sect-text"><a href="">1.5kg</a></p>
+                                            <p class="category-sect-text"><a href="">2kg</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-6 col-md-6 col-lg-12">
+                                    <div class="category-sect-block">
+                                        <div id="accordion1">
+                                            <div class="card">
+                                            <div class="card-header" id="headingOne">
+                                                <h5 class="mb-0">
+                                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                    Herkunftsland
+                                                    <div class="arrow-drop">
+                                                        <img src="../img/arrow-search.png" alt="">
+                                                    </div>
+                                                </button>
+                                                </h5>
+                                            </div>
+                                        
+                                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion1">
+                                                <div class="card-body">
+                                                    <p class="category-sect-text"><a href="">Deutschland</a></p>
+                                                    <p class="category-sect-text"><a href="">Frankreich</a></p>
+                                                    <p class="category-sect-text"><a href="">Griechenland</a></p>
+                                                    <p class="category-sect-text"><a href="">Italien</a></p>
+                                                    <p class="category-sect-text"><a href="">Niederlande</a></p>
+                                                    <p class="category-sect-text"><a href="">Österr</a></p>
+                                                    <p class="category-sect-text"><a href="">Portugal</a></p>
+                                                    <p class="category-sect-text"><a href="">Schweiz</a></p>
+                                                    <p class="category-sect-text"><a href="">Spanien</a></p>
+                                                    <div class="d-flex justify-content-center">
+                                                        <img src="../img/arrow-search.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-12">
+                                    <div class="category-sect-block">
+                                        <div id="accordion2">
+                                            <div class="card">
+                                            <div class="card-header" id="headingTwo">
+                                                <h5 class="mb-0">
+                                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                                    Marke
+                                                    <div class="arrow-drop">
+                                                        <img src="../img/arrow-search.png" alt="">
+                                                    </div>
+                                                </button>
+                                                </h5>
+                                            </div>
+                                        
+                                            <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordion2">
+                                                <div class="card-body">
+                                                    <p class="category-sect-text"><a href="">Deutschland</a></p>
+                                                    <p class="category-sect-text"><a href="">Frankreich</a></p>
+                                                    <p class="category-sect-text"><a href="">Griechenland</a></p>
+                                                    <p class="category-sect-text"><a href="">Italien</a></p>
+                                                    <p class="category-sect-text"><a href="">Niederlande</a></p>
+                                                    <p class="category-sect-text"><a href="">Österr</a></p>
+                                                    <p class="category-sect-text"><a href="">Portugal</a></p>
+                                                    <p class="category-sect-text"><a href="">Schweiz</a></p>
+                                                    <p class="category-sect-text"><a href="">Spanien</a></p>
+                                                    <div class="d-flex justify-content-center">
+                                                        <img src="../img/arrow-search.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sale-link">
+                                <a href="">Sale</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="category-list-top">
+                            <div class="category-list-top-left">
+                                <div class="category-list-top-text">
+                                    12 von 136 Ergebnisse
+                                </div>
+                            </div>
+                            <div class="category-list-top-right">
+                                <div class="category-list-select-1 category-list-top-text">
+                                    <label for="number">Zeige</label>
+                                    <select name="number" id="number">
+                                    <option>12</option>
+                                    <option>20</option>
+                                    <option>40</option>
+                                    </select>
+                                </div>
+                                <div class="category-list-select-2 category-list-top-text">
+                                    <select class="unknown" name="unknown" id="unknown">
+                                    <option>Sortieren nach  Position</option>
+                                    </select>
+                                </div>
+                                <div class="category-rectangle-list">
+                                    <img src="../img/category-img/Rectangle.png" alt="">
+                                    <img src="../img/category-img/Rectangle3.png" alt="">
+                                    <img src="../img/category-img/Rectangle2.png" alt="">
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="nav-search-page-block">
+                            <nav aria-label="Search results pages">
+                                <ul class="pagination justify-content-center">
+                                <li class="page-item disabled">
+                                    <a class="page-link arrow-page" href="#" tabindex="-1" aria-disabled="true"><i class="fas fa-angle-left"></i></a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link arrow-page" href="#"><i class="fas fa-angle-right"></i></a>
+                                </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="category-list-product">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="row">
+                                        <div class="col-6 col-md-12">
+                                            <div class="category-list-card">
+                                                <div class="product-plaque ">SAle</div>
+                                                <div class="category-list-card-label"></div>
+                                                <div class="category-list-card-img"><img src="../img/category-img/2product.png" alt=""></div>
+                                                <div class="category-list-card-head"> <a href="">TechDivision Grünrer Tee</a></div>
+                                                <div class="category-list-card-price red-price"><span>15,59 </span>&nbsp;&nbsp;12,59 €</div>
+                                                <div class="category-list-card-price-desc">Inkl. 19% MwSt., zzgl. <a href="">Versandkost</a> (2,59 € / 1 kg)</div>
+                                            </div>
+                                            <div class="category-list-card">
+                                                <div class="product-plaque product-sale-plaque">Sale</div>
+                                                <div class="category-list-card-label"></div>
+                                                <div class="category-list-card-img"><img src="../img/category-img/4product.png" alt=""></div>
+                                                <div class="category-list-card-head"> <a href="">TechDivision Tee</a></div>
+                                                <div class="category-list-card-price red-price"><span>9,-</span>&nbsp;&nbsp;5,95 €</div>
+                                                <div class="category-list-card-price-desc">Inkl. 19% MwSt., zzgl. <a href="">Versandkost</a> (2,59 € / 1 kg)</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-md-12">
+                                            <div class="category-list-card">
+                                                <div class="product-plaque">Sale</div>
+                                                <div class="category-list-card-label"></div>
+                                                <div class="category-list-card-img"><img src="../img/category-img/1product.png" alt=""></div>
+                                                <div class="category-list-card-head"> <a href="">TechDivision Kaffee</a></div>
+                                                <div class="category-list-card-price">11,95 €</div>
+                                                <div class="category-list-card-price-desc">Inkl. 19% MwSt., zzgl. <a href="">Versandkost</a> (2,59 € / 1 kg)</div>
+                                            </div>
+                                            <div class="category-list-card">
+                                                <div class="product-plaque">Sale</div>
+                                                <div class="category-list-card-label"></div>
+                                                <div class="category-list-card-img"><img src="../img/category-img/6product.png" alt=""></div>
+                                                <div class="category-list-card-head"> <a href="">TechDivision Schokolade</a></div>
+                                                <div class="category-list-card-price">5,95 €</div>
+                                                <div class="category-list-card-price-desc">Inkl. 19% MwSt., zzgl. <a href="">Versandkost</a> (2,59 € / 1 kg)</div>
+                                            </div>
+                                        </div>
+                                    </div>    
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="row">
+                                        <div class="col-6 col-md-12">
+                                            <div class="category-list-card">
+                                                <div class="product-plaque product-neu-plaque">Neu</div>
+                                                <div class="category-list-card-label"></div>
+                                                <div class="category-list-card-img"><img src="../img/category-img/3product.png" alt=""></div>
+                                                <div class="category-list-card-head"> <a href="">TechDivision Tee</a></div>
+                                                <div class="category-list-card-price red-price"><span>8,-</span>&nbsp;&nbsp;5,95 €</div>
+                                                <div class="category-list-card-price-desc">Inkl. 19% MwSt., zzgl. <a href="">Versandkost</a> (2,59 € / 1 kg)</div>
+                                            </div>
+                                            <div class="category-list-card">
+                                                <div class="product-plaque product-sale-plaque">Sale</div>
+                                                <div class="category-list-card-label"></div>
+                                                <div class="category-list-card-img"><img src="../img/category-img/5product.png" alt=""></div>
+                                                <div class="category-list-card-head"> <a href="">TechDivision Tee</a></div>
+                                                <div class="category-list-card-price red-price"><span>8,-</span> &nbsp; &nbsp;5,95 €</div>
+                                                <div class="category-list-card-price-desc">Inkl. 19% MwSt., zzgl. <a href="">Versandkost</a> (2,59 € / 1 kg)</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-md-12">
+                                            <div class="category-list-card">
+                                                <div class="product-plaque">Sale</div>
+                                                <div class="category-list-card-label"></div>
+                                                <div class="category-list-card-img"><img src="../img/category-img/2product.png" alt=""></div>
+                                                <div class="category-list-card-head"> <a href="">TechDivision Kaffee</a></div>
+                                                <div class="category-list-card-price">11,95 €</div>
+                                                <div class="category-list-card-price-desc">Inkl. 19% MwSt., zzgl. <a href="">Versandkost</a> (2,59 € / 1 kg)</div>
+                                            </div>
+                                            <div class="category-list-card">
+                                                <div class="product-plaque">Sale</div>
+                                                <div class="category-list-card-label"></div>
+                                                <div class="category-list-card-img"><img src="../img/category-img/7product.png" alt=""></div>
+                                                <div class="category-list-card-head"> <a href="">TechDivision Schokolade</a></div>
+                                                <div class="category-list-card-price">5,95 €</div>
+                                                <div class="category-list-card-price-desc">Inkl. 19% MwSt., zzgl. <a href="">Versandkost</a> (2,59 € / 1 kg)</div>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="row">
+                                        <div class="col-6 col-md-12">
+                                            <div class="category-list-card">
+                                                <div class="product-plaque">Sale</div>
+                                                <div class="category-list-card-label"></div>
+                                                <div class="category-list-card-img"><img src="../img/category-img/1product.png" alt=""></div>
+                                                <div class="category-list-card-head"> <a href="">TechDivision Kaffee</a></div>
+                                                <div class="category-list-card-price">11,95 €</div>
+                                                <div class="category-list-card-price-desc">Inkl. 19% MwSt., zzgl. <a href="">Versandkost</a> (2,59 € / 1 kg)</div>
+                                            </div>
+                                            <div class="category-list-card">
+                                                <div class="product-plaque">Sale</div>
+                                                <div class="category-list-card-label"></div>
+                                                <div class="category-list-card-img"><img src="../img/category-img/5product.png" alt=""></div>
+                                                <div class="category-list-card-head"> <a href="">TechDivision Tee Pfefferminze Premium</a></div>
+                                                <div class="category-list-card-price">11,95 €</div>
+                                                <div class="category-list-card-price-desc">Inkl. 19% MwSt., zzgl. <a href="">Versandkost</a> (2,59 € / 1 kg)</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-md-12">
+                                            <div class="category-list-card">
+                                                <div class="product-plaque">Sale</div>
+                                                <div class="category-list-card-label"></div>
+                                                <div class="category-list-card-img"><img src="../img/category-img/3product.png" alt=""></div>
+                                                <div class="category-list-card-head"> <a href="">TechDivision Kaffee</a></div>
+                                                <div class="category-list-card-price">11,95 €</div>
+                                                <div class="category-list-card-price-desc">Inkl. 19% MwSt., zzgl. <a href="">Versandkost</a> (2,59 € / 1 kg)</div>
+                                            </div>
+                                            <div class="category-list-card">
+                                                <div class="product-plaque">Sale</div>
+                                                <div class="category-list-card-label"></div>
+                                                <div class="category-list-card-img"><img src="../img/category-img/8product.png" alt=""></div>
+                                                <div class="category-list-card-head"> <a href="">TechDivision Kaffee</a></div>
+                                                <div class="category-list-card-price">5,95 €</div>
+                                                <div class="category-list-card-price-desc">Inkl. 19% MwSt., zzgl. <a href="">Versandkost</a> (2,59 € / 1 kg)</div>
+                                            </div>
+                                        </div>
+                                    </div>   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav-search-page-block">
+                            <nav aria-label="Search results pages">
+                                <ul class="pagination justify-content-center">
+                                <li class="page-item disabled">
+                                    <a class="page-link arrow-page" href="#" tabindex="-1" aria-disabled="true"><i class="fas fa-angle-left"></i></a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link arrow-page" href="#"><i class="fas fa-angle-right"></i></a>
+                                </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="block-list">
+            <div class="container">
+                <h3 class="head-list">Zuletzt gesehene produkte</h3>
+                <div class="list-produkts">
+                    <div class="card-produkt">
+                        <img class="img-produkt" src="../img/product-img/6produkt.jpg" alt="">
+                        <p class="card-name-produkt"><a href="">TechDivision Kakao</a></p>
+                        <p class="price-card">ab 2,95 €</p>
+                        <p class="price-dop-card">Inkl. 19% MwSt., zzgl. <a href="">Versandkost</a>   (5,99 € / 1 kg)</p>
+                    </div>
+                    <div class="card-produkt">
+                        <img class="position-label" src="../img/product-img/SALE.jpg" alt="">
+                        <img class="img-produkt" src="../img/product-img/7produkt.jpg" alt="">
+                        <p class="card-name-produkt"><a href="">TechDivision Gruner Tree</a></p>
+                        <p class="price-card red-price"><span>9,-</span> ad 6,95 €</p>
+                        <p class="price-dop-card">Inkl. 19% MwSt., zzgl. <a href="">Versandkost</a>   (2,59 € / 1 kg)</p>
+                    </div>
+                    <div class="card-produkt">
+                        <img class="position-label" src="../img/product-img/NEW.jpg" alt="">
+                        <img class="img-produkt" src="../img/product-img/8produkt.jpg" alt="">
+                        <p class="card-name-produkt"><a href="">TechDivision Kaffee</a></p>
+                        <p class="price-card">9,95 €</p>
+                        <p class="price-dop-card">Inkl. 19% MwSt., zzgl. <a href="">Versandkost</a>   (2,59 € / 1 kg)</p>
+                    </div>
+                    <div class="card-produkt none-card">
+                        <img class="img-produkt" src="../img/product-img/8produkt.jpg" alt="">
+                        <p class="card-name-produkt"><a href="">TechDivision Kaffee</a></p>
+                        <p class="price-card">9,95 €</p>
+                        <p class="price-dop-card">Inkl. 19% MwSt., zzgl. <a href="">Versandkost</a>   (2,59 € / 1 kg)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="end-block-list">
+            <div class="container">
+                <div class="row align-items-md-center">
+                    <div class="col-sm-9 align-self-md-center align-self-sm-start">
+                        <div class="row no-gutters">
+                            <div class="col-md-auto">
+                                <img class="left-brand-list-item" src="../img/product-img/Sofortzahlen-Icon.png" alt="">
+                                <img class="left-brand-list-item" src="../img/product-img/visa-icon.png" alt="">
+                                <img class="left-brand-list-item" src="../img/product-img/mastercard-icon.png" alt="">
+                                <img class="left-brand-list-item" src="../img/product-img/paypal-icon.png" alt="">
+                            </div>
+                            <div class="col-md-auto">
+                                <a class="link-list-item" href="">Vorcasse</a>
+                                <a class="link-list-item" href="">Nachnahme</a>
+                                <a class="link-list-item" href="">Rechnung</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 d-md-flex justify-content-end">
+                        
+                        <img class="right-brand-list-item" src="../img/product-img/quality-seal.png" alt="">
+                        <img class="right-brand-list-item" src="../img/product-img/ssl.png" alt="">
+                        <img class="right-brand-list-item" src="../img/product-img/check-mark.png" alt="">
+    
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    
+        <footer>
+            <div class="container">
+                <div class="footer-line">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="footer-phone">
+                                <i class="fas fa-phone-alt footer-phone-icon"></i>
+                                <div class="footer-phone-text">
+                                    <h5 class="footer-heading">service und hilfe</h5>
+                                    <p class="footer-phone-number"><a href="tel:+4980312210550">+49 8031 221 055 0</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4">
+                            <h5 class="footer-heading">fax</h5>
+                            <a class="footer-address-link" href="tel:+4980312210550"><i class="fas fa-fax footer-icon"></i> +49 8031 2210 55 22</a>
+                        </div>
+                        <div class="col-md-3 col-sm-3">
+                            <h5 class="footer-heading">adresse</h5>
+                            <a class="footer-address-link" href=""><i class="fas fa-map-marker-alt footer-icon"></i>Karte zeigen ›</a>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-5">
+                            <h5 class="footer-heading">Schreiben Sie uns eine E-Mail</h5>
+                            <a class="footer-address-link" href="mailto:info@techdivision.com"><i class="fas fa-envelope footer-icon"></i> info@techdivision.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="footer-line">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-5">
+                            <h5 class="footer-heading">base+shop</h5>
+                            <ul>
+                                <li><a href="">Unternehmen</a></li>
+                                <li><a href="">Impressum</a></li>
+                                <li><a href="">News</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-5">
+                            <h5 class="footer-heading">Rechtliches</h5>
+                            <ul>
+                                <li><a href="">AGB</a></li>
+                                <li><a href="">Datenschutz</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-5 col-md-6 col-sm-4 ">
+                            <h5 class="footer-heading footer-last-col">Versand</h5>
+                            <ul>
+                                <li><a href="">Versandkosten</a></li>
+                                <li><a href="">Widerrufsrecht/Garantie</a></li>
+                                <li><a href="">Rückversand</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3">
+                            <h5 class="footer-heading newsletter-heading">Newsletter</h5>
+                            <form class="newsletter-form" action="">
+                                <input type="text" class="newsletter-form-text" placeholder="Ihre E-Mail Adresse">
+                                <input type="submit" class="newsletter-form-button">
+                                <!-- <button><i class="fas fa-search"></i></button> -->
+                        </form>
+                        <div class="footer-social-icons">
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href=""><i class="fab fa-google-plus-g"></i></a>
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="fab fa-youtube"></i></a>
+                            <a href=""><i class="fab fa-google-plus-g"></i></a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="../js/jquery-ui.min.js"></script>
+    <script src="../js/category-script.js"></script>
+</body>
+</html>

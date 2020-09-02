@@ -1,0 +1,100 @@
+
+.newsletter-form {
+    position: relative;
+}
+
+.newsletter-form {
+    margin-top: 15px;
+}
+.newsletter-form-text {
+    border: 0;
+    padding: 16px 40px 16px 14px; 
+    border: 2px solid #e5e5e5;
+    width: 100%;
+}
+.newsletter-form-button {
+    position: absolute;
+    top: 23px;
+    right: 20px;
+    background-color: transparent;
+    border: 0;
+    background-image: url(../img/arrow-search.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+    font-size: 0;
+}
+.footer-line {
+    border-bottom: 1px solid #eaeaea;
+    padding: 60px 0;
+}
+.footer-phone {
+    display: flex;
+    margin-bottom: 30px;
+}
+.footer-phone-icon {
+    color: #666;
+    font-size: 40px;
+    margin-right: 12px;
+}
+.footer-heading {
+    text-transform: uppercase;
+    color: #686868;
+    font-size: 12px;
+    margin: 0;
+    font-weight: 600;
+}
+.footer-phone-number {
+    margin: 0;
+    line-height: 1;
+}
+.footer-phone-number a{
+    font-size: 24px;
+}
+footer a{
+    color: #686868;
+    font-size: 12px;
+}
+footer a:hover{
+    color: #333;
+}
+.footer-icon {
+    margin-right: 6px;
+}
+.footer-line ul {
+    padding: 0;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.footer-social-icons a {
+    font-size: 20px;
+    color: #7d7d7d;
+    display: inline-block;
+    margin-right: 15px;
+}
+.footer-social-icons a {
+    margin-top: 30px;
+}
+
+@media (max-width: 992px) {
+    .newsletter-heading {
+        padding-top: 20px;
+    }
+}
+@media (max-width: 576px) {
+    .footer-last-col {
+        padding-top: 20px;
+    }
+    .footer-address-link {
+        display: inline-block;
+        padding-bottom: 15px;
+    }
+    .footer-line {
+        padding: 15px 0;
+    }
+
+
+}

@@ -1,0 +1,127 @@
+:root {
+    --active-color: aqua;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+}
+/*---------------------------------------Navbar--------------------------------*/
+
+.nav-left .nav-link{
+    text-transform: uppercase;
+}
+.navbar-brand {
+    margin-right: 30px;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-weight: 600;
+    font-size: 14px;
+    color: black;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 25px;
+    padding-left: 25px;
+}  
+
+.navbar-expand-lg .navbar-nav li:last-of-type .nav-link{
+    padding-right: 0px;
+}
+
+/*---------------------------------------Search-Block--------------------------*/
+.search-block {
+    
+    position: relative;
+    text-align: right;
+    background-color: #f2f4f6;
+    text-align: right;
+}
+.line-top {
+    border-top: 2px solid #e6e6e6;
+    padding: 20px 0;
+}
+.search-sign {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+.search-form {
+    position: relative;
+    margin-left: auto;
+}
+.search-form-text {
+    border: 0;
+    padding: 16px 40px 16px 14px; 
+    border: 2px solid #e5e5e5;
+    width: 100%;
+}
+.search-form-button {
+    position: absolute;
+    top: 23px;
+    right: 20px;
+    background-color: transparent;
+    border: 0;
+    background-image: url(../img/head-img/search.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+    font-size: 0;
+}
+.search-form-button:focus {
+    border: 0;
+    outline: 0;
+
+}
+.search input:focus {
+    outline: none;
+}
+
+.search button {
+    z-index: 1;
+    background-color: white;
+    border: 0;
+    padding-right: 10px;
+}
+.search button:focus {
+    outline: none;
+    color: var(--active-color);
+}
+.search button:hover {
+    color: var(--active-color);
+}
+
+@media (max-width: 1200px) {
+    .navbar-brand {
+        margin-right: 20px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 15px;
+        padding-left: 15px;
+    }  
+    
+    .navbar-expand-lg .navbar-nav li:last-of-type .nav-link{
+        padding-right: 0px;
+    }
+}
+@media (max-width: 992px) {
+    .search-sign {
+        position: static;
+        transform: unset;
+    }
+    .footer-line {
+        padding: 30px 0;
+    }
+    .search-container {
+        flex-direction: column;
+    }
+}
+@media (max-width: 576px) {
+    .search-sign {
+        font-size: 14px;
+    }
+}
