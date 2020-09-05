@@ -1,4 +1,6 @@
-
+.carousel {
+    margin: 20px 0;
+}
 .carousel-item-desc {
     position: absolute;
     top: 25%;
@@ -49,6 +51,9 @@
 }
 .product-sect {
     background-color: #f3f5f7;
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 120px;
 }
 .product-block {
     padding: 12px 0 40px;
@@ -105,11 +110,109 @@
 .product-desc a{ 
     text-decoration: underline;
 }
+
+.category-sect {
+    padding-bottom: 30px;
+    margin-bottom: 60px;
+
+}
+.cd-1 {
+    background-color: #ebdbe4;
+}
+.cd-2 {
+    background-color: #ebe1db;
+}
+.cd-3 {
+    background-color: #dbe5eb;
+}
+.cd-4 {
+    background-color: #d2dccf;
+}
+
+.category-block {
+    position: relative;
+    min-height: 225px;
+}
+.category-heading, .category-subheading {
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 0;
+    position: absolute;
+}
+
+.category-heading {
+    color: #d7795f;
+    font-size: 26px;
+}
+.category-subheading {
+    color: black;
+    font-size: 14px;
+}
+.category-block-img {
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.cd-1 .category-heading {
+    top: 35px;
+    left: 60px;
+}
+.cd-1 .category-subheading {
+    top: 65px;
+    left: 45px;
+}
+.cd-2 .category-heading {
+    top: 50px;
+    left: 150px;
+}
+.cd-2 .category-subheading {
+    top: 35px;
+    left: 175px;
+}
+.cd-3 .category-heading {
+    top: 50px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.cd-3 .category-subheading {
+    top: 35px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.cd-4 .category-heading {
+    top: 35px;
+    right: 60px;
+}
+.cd-4 .category-subheading {
+    top: 65px;
+    right: 40px;
+}
+.feature-block-img, .category-block-img {
+    max-width: 100%;
+}
+.feature-block-desc {
+    margin-top: 15px;
+}
+.border-bottom-block {
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 50px;
+}
+.client-sect .border-bottom-block {
+    padding-bottom: 0px;
+}
+
 .clients-slider {
     margin: 80px 0;
 }
-.slick-slide img {
-    margin: auto;
+.slick-slide  { 
+    text-align: center;
+}
+.slick-slide img { 
+    display: inline-block;
 }
 .slick-prev:before, .slick-next:before {
     color: black;
