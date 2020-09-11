@@ -1,4 +1,6 @@
-
+body{
+    overflow-x: hidden;
+}
 /*---------------------------------------breadcrumb-----------------------------------------*/
 .breadcrumb-sect {
     padding-top: 100px;
@@ -9,7 +11,7 @@
 }
 .breadcrumb-head-img {
     margin: 0 auto;
-
+    align-self: baseline;
 }
 .breadcrumb {
     padding: 20px 0;
@@ -620,6 +622,7 @@ label {
 
     .breadcrumb-head-img {
         width: 50%;
+        align-self: baseline;
     }
     .category-list-top-text {
         font-size: 12px;

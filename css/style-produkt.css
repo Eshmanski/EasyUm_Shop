@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 select {
     appearance: none;
     -webkit-appearance: none; 
@@ -378,6 +381,9 @@ a[class="breadcrumb-color"]:hover {
     }
 }
 @media (max-width: 576px) {
+    .produkt-name {
+        font-size: 22px;
+    }
     .text-info-block {
         font-size: 12px;
     }

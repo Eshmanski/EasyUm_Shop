@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 .carousel {
     margin: 20px 0;
 }

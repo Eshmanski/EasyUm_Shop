@@ -14,6 +14,7 @@ $('.clients-slider').slick({
       {
         breakpoint: 576,
         settings: {
+          arrows: false,
           slidesToShow: 1,
           slidesToScroll: 1
         }
